@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ordem de Serviço</title>
+    
+</head>
+<body>
+    <header class="navbar">
+        <h1><span>AUTOMOTIVE </span> CENTER CM</h1>
+        <ul>
+            
+            <li><a href="#agend_h2">Agendamento</a></li>
+            <li><a href="#sec_contato">Contato</a></li>
+            <li><a href="#">Parceiros</a></li>
+        </ul>
+    </header>
+    
+
+    <section class="service">
+        <img src="./automotive.png" alt="Img Nossos Serviços">
+        <div>
+            <h2><span class="service_span"> PREMIUM </span> SERVICES </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus provident recusandae voluptates iure quia nihil nemo, ipsum iste quod, sequi ullam cum nam illo at modi fuga minima, dolore molestias!</p>
+        </div>
+    </section>
+
+
+    <section class="agend">
+        <img src="./revisao.png" alt="Img Revisao do seu carro em dia">
+        <div>
+            <h2 id="agend_h2">Agendamento</h2>
+            <form class="agend_form" action=""> 
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label><br>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </div>
+                <div>
+                    <label for="placa">Placa do veículo</label><br>
+                    <input type="text" name="placa" id="placa" placeholder="Digite a placa" required>
+                </div>
+                <div>
+                    <label for="tipo_servico">Serviço</label><br>
+                    <select name="tipo_servico" id="tipo_servico">
+                        <option value="#">Selecione...</option>
+                        <option value="suspensao">Suspensão</option>
+                        <option value="motor">Motor</option>
+                        <option value="arcondicionado">Ar condicionado</option>
+                        <option value="acessorios">Acessórios</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="contato" id="sec_contato">
+        <h2>Contato</h2>
+        <ul>
+            <li>Whatsapp</li>
+            <li>E-mail</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Parceiros</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facilis voluptatem eum suscipit, repudiandae nobis illum officia, corporis dolor impedit, accusamus at alias itaque quibusdam! Beatae adipisci deserunt iste fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, modi. Eum rerum, eius impedit, facere tempora laboriosam corporis dolorem similique illo itaque in autem porro deleniti tenetur, voluptatibus error voluptatum?</p>
+        
+    </section>
+
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>

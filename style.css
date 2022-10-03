@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;      
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar span {
+    color: #FCC500;
+}
+
+.service {
+    display: flex;
+    padding-top: 30px;
+}
+
+
+.service div {
+    width: 200px;
+    height: 200px;
+    padding: 60px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.service_span {
+    color: #FCC500;
+}
+
+.service img {
+    padding-left: 150px;
+    width: 700px;
+    height: 500px;
+
+}
+
+.agend {
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+}
+
+.agend img {
+    width: 500px;
+}
+
+.agend_form input {
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.agend_form select {
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+.agend_form div {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+.agend_form input {
+    text-align: center;
+}
+
+#agend_h2 {
+    text-align: center;
+}
+
+.contato {
+    margin-top: 50px;
+    background-color: #FCC500;
+}
+
